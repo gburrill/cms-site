@@ -9,10 +9,9 @@ collections:
     - name: "pages"
     label: "Pages"
     files:
-      - file: "/about/index.md"
+    - file: "/about/index.md"
         label: "About"
         name: "about"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          
